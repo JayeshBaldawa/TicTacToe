@@ -1,0 +1,91 @@
+html
+{
+  background-color: black;
+}
+
+td
+{
+  border: 1px solid white;
+  text-align: left;
+  padding: 55px;
+}
+
+td:hover
+{
+  border: 5px solid white;
+  box-shadow: 2px 2px 20px 0px;
+  border-radius: 10px;
+}
+
+.table_wrapper
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+table 
+{
+  background-color: wheat;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+.container
+{
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+}
+
+.player
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.player div 
+{
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: wheat;
+}
+
+.player1
+{
+  margin-right: 10px;
+}
+
+.clear
+{
+  padding: 20px;
+  background-color: wheat;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear:hover
+{
+  box-shadow: 1px 1px 18px 3px white;
+}
+
+.turn
+{
+  background-color: green !important;
+}
+
+.winner
+{
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+}
